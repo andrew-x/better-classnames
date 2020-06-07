@@ -1,6 +1,6 @@
-<div style="text-align:center;">
+<p style="text-align:center;" align="center">
   <img src="./logo.png" alt="classnames-plus logo"/>
-</div>
+</p>
 
 # Classnames-Plus - Advanced classnames utility
 
@@ -194,7 +194,7 @@ The `First Button` has defined custom x and y padding. `Second Button` has defin
 
 # Contribution
 
-Contributions are welcome, please ensure you add new tests as necessary.
+Contributions are welcome, please add new tests as necessary.
 
 # License
 
