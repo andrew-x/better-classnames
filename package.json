@@ -1,0 +1,30 @@
+{
+  "name": "classnames-plus",
+  "version": "1.0.0",
+  "description": "advanced utility for programmatically resolving classnames",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "programmatic",
+    "logic",
+    "conditional",
+    "classnames",
+    "class",
+    "styling",
+    "css",
+    "utility",
+    "react",
+    "angular",
+    "html",
+    "classes"
+  ],
+  "author": "Andrew Xia",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^7.2.0",
+    "chai": "^4.2.0"
+  },
+  "dependencies": {}
+}
