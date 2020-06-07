@@ -1,15 +1,15 @@
 <p style="text-align:center;" align="center">
-  <img src="./logo.png" alt="classnames-plus logo"/>
+  <img src="./logo.png" alt="better-classnames logo"/>
 </p>
 
-# Classnames-Plus - Advanced classnames utility
+# Better-classnames - Advanced classnames utility
 
-`Classnames-Plus` is a lightweight and advanced utility allowing for programmatically and conditionally building classnames. Building upon existing work with added configuration and overriding support.
+`better-classnames` is a lightweight and advanced utility allowing for programmatically and conditionally building classnames. Building upon existing work with added configuration and overriding support.
 
 # Installation
 
 Install by simply running:  
-`npm install classnames-plus`.
+`npm install better-classnames`.
 
 Polyfills may be required for older browsers:  
 `Array.isArray`: [see here for details](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)   
@@ -20,9 +20,9 @@ Polyfills may be required for older browsers:
 ### Importing
 
 ```javascript
-import classnames from "classnames-plus";
+import classnames from "better-classnames";
 // or
-const classnames = require("classnames-plus");
+const classnames = require("better-classnames");
 ```
 
 ### Simple
@@ -49,7 +49,7 @@ classnames("a b", ["c", ["d", "e"], false], { f: true, g: false }); // => "a b c
 
 ### Options
 
-`Classnames-Plus` can be configured by calling the `opt` function with a configuration JSON. Output can be configured to be an array instead of a string. Strings with spaces can also be configured to be joined instead of separating. The marker for default options for object processing can also be set.
+`better-classnames` can be configured by calling the `opt` function with a configuration JSON. Output can be configured to be an array instead of a string. Strings with spaces can also be configured to be joined instead of separating. The marker for default options for object processing can also be set.
 
 ```javascript
 classnames.opt({ output: "array" }).process("a", "b c"); // => ["a", "b", "c"]
@@ -177,7 +177,7 @@ const NewButton = (props) => (
   </button>
 );
 ```
-By using `classnames-plus`, the styling is now much more declarative with easier to follow logic. The definition of likes and precedences also now allow overriding styles. For example:
+By using `better-classnames`, the styling is now much more declarative with easier to follow logic. The definition of likes and precedences also now allow overriding styles. For example:
 
 ```javascript
 const App = () => {

@@ -1,18 +1,18 @@
 {
-  "name": "classnames-plus",
+  "name": "better-classnames",
   "version": "1.0.0",
   "description": "advanced utility for programmatically resolving classnames",
   "main": "./index.js",
   "scripts": {
     "test": "mocha"
   },
-  
-  "homepage": "https://github.com/andrew-x/classnames-plus",
+
+  "homepage": "https://github.com/andrew-x/better-classnames",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrew-x/classnames-plus.git"
+    "url": "https://github.com/andrew-x/better-classnames.git"
   },
-  "bugs": "https://github.com/andrew-x/classnames-plus/issues",
+  "bugs": "https://github.com/andrew-x/better-classnames/issues",
 
   "keywords": [
     "programmatic",
