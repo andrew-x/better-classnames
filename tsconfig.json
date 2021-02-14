@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "@src": ["./src/*"]
+    },
+    "watch": true,
+    "lib": ["ES2015"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
