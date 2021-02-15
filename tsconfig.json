@@ -9,7 +9,6 @@
     "paths": {
       "@src": ["./src/*"]
     },
-    "watch": true,
     "lib": ["ES2015"]
   },
   "include": ["src"],
